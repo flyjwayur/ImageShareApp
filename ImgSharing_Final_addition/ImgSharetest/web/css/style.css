@@ -1,0 +1,232 @@
+body {
+	width: 100%;
+	margin:0 auto;
+}
+
+//container
+div#container {
+	width: 100%;
+	margin:0 auto;
+}
+        
+div.container {
+	width: 100%;
+	margin:0 auto;
+}
+
+//nav       
+.navbar-text > a {
+	color: inherit;
+	text-decoration:none;
+}
+
+.navbar-default .navbar-nav>.active>a:before,
+.navbar-nav>li>a:before {
+    background-repeat: no-repeat;
+    background-position: 0 top;
+    content: "";
+    display: inline-block;
+    height: 29px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 29px;
+}
+
+.navbar-default .navbar-nav>.active>a.home:before,
+.navbar-nav>li>a.home:before { background-image: url('https://dl.dropboxusercontent.com/sh/0be3c7ub4245kd6/18Xnfucw14/home.png'); }
+
+.navbar-default .navbar-nav>.active>a.about:before,
+.navbar-nav>li>a.about:before {  background-image: url('https://dl.dropboxusercontent.com/sh/0be3c7ub4245kd6/DhXiON5YiL/kveld.png'); }
+
+.navbar-default .navbar-nav>.active>a.contact:before,
+.navbar-nav>li>a.contact:before {  background-image: url('https://dl.dropboxusercontent.com/sh/0be3c7ub4245kd6/_fidqgglaS/sol.png'); }
+
+/*
+//modal
+.modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #0480be;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+*/
+    
+//modal in index.html 
+.modal-dialog{
+    position: absolute;
+    left: 35%;
+    //now you must set a margin left under zero - value is a half width your window
+    margin-left: -1000px;
+    // this same situation is with height - example
+    height: 700px;
+    top: 50%;
+    margin-top: -250px;
+} 
+
+//modal for displaying images in thumbnailGallery.html 
+.img.modal-dialog{
+    display:block;
+    //position: absolute;
+    //left: 10%;
+    //now you must set a margin left under zero - value is a half width your window
+    margin-left: -1000px;
+    //height: 500px;
+    //top: 50%;
+    //margin-top: -250px;
+} 
+/*
+//modal for upload images in thumbnailGallery.html
+.upload.modal-dialog{
+    position: absolute;
+    left: 10%;
+    //now you must set a margin left under zero - value is a half width your window
+    margin-left: -1000px;
+    // this same situation is with height - example
+    height: 500px;
+    top: 50%;
+    margin-top: -250px;
+} 
+
+.centermodal{
+    text-align: center;
+}
+
+.modal{
+    display:block;
+    margin: 0 auto;
+}
+ //.thumbnails{
+//     float : left;
+//     width : 25%;
+ //}
+ */
+.thumb {
+    margin-bottom: 30px;
+    //height:auto
+}
+
+footer {
+    margin: 50px 0;
+}
+
+body {
+	width: 100%;
+	margin:0 auto;
+}
+
+//container
+div#container {
+	width: 100%;
+	margin:0 auto;
+}
+        
+div.container {
+	width: 100%;
+	margin:0 auto;
+}
+
+//nav       
+.navbar-text > a {
+	color: inherit;
+	text-decoration:none;
+}
+
+.navbar-default .navbar-nav>.active>a:before,
+.navbar-nav>li>a:before {
+    background-repeat: no-repeat;
+    background-position: 0 top;
+    content: "";
+    display: inline-block;
+    height: 29px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 29px;
+}
+
+.navbar-default .navbar-nav>.active>a.home:before,
+.navbar-nav>li>a.home:before { background-image: url('https://dl.dropboxusercontent.com/sh/0be3c7ub4245kd6/18Xnfucw14/home.png'); }
+
+.navbar-default .navbar-nav>.active>a.about:before,
+.navbar-nav>li>a.about:before {  background-image: url('https://dl.dropboxusercontent.com/sh/0be3c7ub4245kd6/DhXiON5YiL/kveld.png'); }
+
+.navbar-default .navbar-nav>.active>a.contact:before,
+.navbar-nav>li>a.contact:before {  background-image: url('https://dl.dropboxusercontent.com/sh/0be3c7ub4245kd6/_fidqgglaS/sol.png'); }
+
+/*
+//modal
+.modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #0480be;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+*/
+    
+//modal in index.html 
+.modal-dialog{
+    position: absolute;
+    left: 35%;
+    //now you must set a margin left under zero - value is a half width your window
+    margin-left: -1000px;
+    // this same situation is with height - example
+    height: 700px;
+    top: 50%;
+    margin-top: -250px;
+} 
+
+//modal for displaying images in thumbnailGallery.html 
+.img.modal-dialog{
+    display:block;
+    //position: absolute;
+    //left: 10%;
+    //now you must set a margin left under zero - value is a half width your window
+    margin-left: -1000px;
+    //height: 500px;
+    //top: 50%;
+    //margin-top: -250px;
+} 
+/*
+//modal for upload images in thumbnailGallery.html
+.upload.modal-dialog{
+    position: absolute;
+    left: 10%;
+    //now you must set a margin left under zero - value is a half width your window
+    margin-left: -1000px;
+    // this same situation is with height - example
+    height: 500px;
+    top: 50%;
+    margin-top: -250px;
+} 
+
+.centermodal{
+    text-align: center;
+}
+
+.modal{
+    display:block;
+    margin: 0 auto;
+}
+ //.thumbnails{
+//     float : left;
+//     width : 25%;
+ //}
+ */
+.thumb {
+    margin-bottom: 30px;
+    //height:auto
+}
+
+footer {
+    margin: 50px 0;
+}
+
